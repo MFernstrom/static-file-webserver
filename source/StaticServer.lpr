@@ -16,16 +16,17 @@ uses
 
 const
   port = 8080;
+  fileLocation = 'app';
 
   procedure rerouteRoot(aRequest: TRequest; aResponse: TResponse);
   begin
     aResponse.Code := 301;
-    aResponse.SetCustomHeader('Location', '/app/index.html');
+    aResponse.SetCustomHeader('Location', fileLocation + '/index.html');
     aResponse.SendContent;
   end;
 
 begin
-  RegisterFileLocation('app', 'public_html');
+  RegisterFileLocation(fileLocation, 'public_html');
   HTTPRouter.RegisterRoute('/', @rerouteRoot);
   MimeTypesFile := extractfiledir(ParamStr(0)) + PathDelim + 'mime.types';
   Application.Initialize;

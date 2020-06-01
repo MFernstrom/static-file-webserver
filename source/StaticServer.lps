@@ -8,21 +8,13 @@
         <Filename Value="StaticServer.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos X="5" Y="10"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="2"/>
+        <CursorPos X="2" Y="7"/>
+        <UsageCount Value="61"/>
         <Loaded Value="True"/>
       </Unit>
-      <Unit>
-        <Filename Value="mime.types"/>
-        <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="1821"/>
-        <CursorPos X="34" Y="1855"/>
-        <UsageCount Value="20"/>
-        <DefaultSyntaxHighlighter Value="None"/>
-      </Unit>
     </Units>
-    <JumpHistory HistoryIndex="1">
+    <JumpHistory HistoryIndex="6">
       <Position>
         <Filename Value="StaticServer.lpr"/>
         <Caret Line="17" Column="20"/>
@@ -30,6 +22,26 @@
       <Position>
         <Filename Value="StaticServer.lpr"/>
         <Caret Line="16" Column="17"/>
+      </Position>
+      <Position>
+        <Filename Value="StaticServer.lpr"/>
+        <Caret Line="17" Column="25" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="StaticServer.lpr"/>
+        <Caret Line="11" Column="44"/>
+      </Position>
+      <Position>
+        <Filename Value="StaticServer.lpr"/>
+        <Caret Line="24" Column="46" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="StaticServer.lpr"/>
+        <Caret Line="14" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="StaticServer.lpr"/>
+        <Caret Line="23" Column="28"/>
       </Position>
     </JumpHistory>
     <RunParams>
