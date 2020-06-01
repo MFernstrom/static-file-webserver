@@ -8,12 +8,20 @@
 program StaticServer;
 
 uses
-  SysUtils, fphttpapp, fpwebfile;
+  SysUtils, fphttpapp, httproute, HTTPDefs, fpwebfile;
 const
   port = 8080;
 
+procedure rerouteRoot(aRequest: TRequest; aResponse: TResponse);
+begin
+  aResponse.Code := 301;
+  aResponse.SetCustomHeader('Location', '/app/index.html');
+  aResponse.SendContent;
+end;
+
 begin
   RegisterFileLocation('app', 'public_html');
+  HTTPRouter.RegisterRoute('/', @rerouteRoot);
   MimeTypesFile := extractfiledir(paramstr(0)) +  PathDelim + 'mime.types';
   Application.Initialize;
   Application.Port := port;
