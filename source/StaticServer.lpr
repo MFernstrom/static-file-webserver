@@ -26,10 +26,10 @@ const
   end;
 
 begin
+  Application.Initialize;
   RegisterFileLocation(fileLocation, 'public_html');
   HTTPRouter.RegisterRoute('/', @rerouteRoot);
-  MimeTypesFile := extractfiledir(ParamStr(0)) + PathDelim + 'mime.types';
-  Application.Initialize;
+  MimeTypesFile := ExtractFilePath(ParamStr(0)) + 'mime.types';
   Application.Port := port;
   WriteLn(format('Static HTTP server starting on localhost:%d', [port]));
   Application.Run;

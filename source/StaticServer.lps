@@ -8,13 +8,41 @@
         <Filename Value="StaticServer.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="2"/>
-        <CursorPos X="2" Y="7"/>
-        <UsageCount Value="61"/>
+        <TopLine Value="24"/>
+        <CursorPos X="48" Y="32"/>
+        <UsageCount Value="62"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="mime.types"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1821"/>
+        <CursorPos X="34" Y="1855"/>
+        <UsageCount Value="62"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../.gitignore.txt"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="62"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../fpcup_may_2020/fpcsrc/packages/fcl-web/src/base/fpwebfile.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="66"/>
+        <CursorPos X="11" Y="83"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../fpcup_may_2020/fpcsrc/rtl/objpas/sysutils/finah.inc"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="10" Y="27"/>
+        <UsageCount Value="11"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="6">
+    <JumpHistory HistoryIndex="9">
       <Position>
         <Filename Value="StaticServer.lpr"/>
         <Caret Line="17" Column="20"/>
@@ -42,6 +70,18 @@
       <Position>
         <Filename Value="StaticServer.lpr"/>
         <Caret Line="23" Column="28"/>
+      </Position>
+      <Position>
+        <Filename Value="StaticServer.lpr"/>
+        <Caret Line="14" Column="12" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="StaticServer.lpr"/>
+        <Caret Line="30" Column="20" TopLine="24"/>
+      </Position>
+      <Position>
+        <Filename Value="StaticServer.lpr"/>
+        <Caret Line="32" Column="25" TopLine="24"/>
       </Position>
     </JumpHistory>
     <RunParams>
